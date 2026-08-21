@@ -1,24 +1,54 @@
-div #Google {
+body main div #form #submit, body main div #form #Search_bar {
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+body #footer, body header {
+  font: 800;
+  color: #fff;
+  font-family: "Product Sans";
+  padding: 5px;
+  background-color: rgb(40, 37, 37);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+body main {
+  background-color: rgb(58, 57, 57);
+  flex: 1;
+  text-align: center;
+  min-height: 91.8vh;
+  min-width: 100vh;
+}
+body main div #Google {
+  font-family: "Product Sans";
+  color: white;
   font-size: 50px;
   font-weight: 900;
   text-align: center;
 }
-
-div #form {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 10px;
-  font-display: block;
+body main div #form {
+  font-size: medium;
+  padding-left: 120px;
   text-align: center;
 }
-
-body {
-  background-color: rgb(85, 83, 83);
+body main div #form #Search_bar {
+  background-color: #fff;
+  width: 500px;
+  height: 30px;
+  padding: 5px;
 }
-
-div #Google {
-  color: white;
+body main div #form #submit {
+  width: 110px;
+  background-color: #fff;
+  color: rgb(10, 10, 10);
+  font-weight: bolder;
+  height: 42.5px;
+  padding: 5px;
 }
-div #form #submit :hover {
-  color: black;
+body main div #form #submit:hover {
+  background-color: rgb(174, 174, 248);
 }/*# sourceMappingURL=style.css.map */
