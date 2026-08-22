@@ -17,7 +17,7 @@ body {
   flex-direction: column;
 }
 body main {
-  background-color: rgb(58, 57, 57);
+  background-color: rgb(35, 33, 33);
   flex: 1;
   text-align: center;
   min-height: 91.8vh;

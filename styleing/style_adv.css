@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(35, 33, 33);
+}
+body #Google {
+  font-family: "Product Sans";
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 10px;
+  margin: 10px;
+}
+body main #form {
+  margin-top: 30px;
+}
+body main #form h1, body main #form .Text, body main #form h3 {
+  margin: 10px;
+  color: rgba(210, 205, 205, 0.845);
+  padding: 20px;
+}
+body main #form .Text {
+  margin-right: 20px;
+}
+body main #form .placeholder {
+  background-color: rgb(35, 33, 33);
+  border: 2px solid rgba(210, 205, 205, 0.845);
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  width: 40vh;
+  align-items: center;
+  color: rgba(210, 205, 205, 0.845);
+}
+body main #form #submit_div {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 350px;
+}
+body main #form #submit_div #submit {
+  font-size: large;
+  border-radius: 15px;
+  padding: 7px;
+  width: 200px;
+  color: aliceblue;
+  border: 2px solid rgb(9, 1, 251);
+  background-color: rgb(9, 1, 251);
+}/*# sourceMappingURL=style_adv.css.map */
