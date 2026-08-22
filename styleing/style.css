@@ -51,4 +51,16 @@ body main div #form #submit {
 }
 body main div #form #submit:hover {
   background-color: rgb(174, 174, 248);
+}
+body main div #form #link {
+  padding-right: 140px;
+  margin-top: 20px;
+  font-weight: 900;
+  font-family: "Product Sans";
+}
+body main div #form #link .links {
+  color: white;
+}
+body main div #form #link .links:hover {
+  color: rgb(174, 174, 248);
 }/*# sourceMappingURL=style.css.map */
