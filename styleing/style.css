@@ -20,7 +20,7 @@ body main {
   background-color: rgb(35, 33, 33);
   flex: 1;
   text-align: center;
-  min-height: 91.8vh;
+  min-height: 82.8vh;
   min-width: 100vh;
 }
 body main div #Google {

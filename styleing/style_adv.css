@@ -1,4 +1,4 @@
-body footer #Continue, body #Google {
+body footer div #Continue, body #Google {
   font-family: "Product Sans";
   color: white;
   font-size: 30px;
@@ -8,8 +8,6 @@ body footer #Continue, body #Google {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   background-color: rgb(35, 33, 33);
 }
 body main #form {
@@ -47,8 +45,15 @@ body main #form #submit_div #submit {
   border: 2px solid rgb(9, 1, 251);
   background-color: rgb(9, 1, 251);
 }
+body main #form #submit_div #submit:hover {
+  background-color: rgb(0, 0, 4);
+}
 body footer {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  position: relative;
+}
+body footer div ol {
+  color: #fff;
+}
+body footer div ol a {
+  color: rgb(6, 217, 250);
 }/*# sourceMappingURL=style_adv.css.map */
