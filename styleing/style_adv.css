@@ -1,15 +1,16 @@
-body {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(35, 33, 33);
-}
-body #Google {
+body footer #Continue, body #Google {
   font-family: "Product Sans";
   color: white;
   font-size: 30px;
   font-weight: 900;
   padding: 10px;
   margin: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(35, 33, 33);
 }
 body main #form {
   margin-top: 30px;
@@ -45,4 +46,9 @@ body main #form #submit_div #submit {
   color: aliceblue;
   border: 2px solid rgb(9, 1, 251);
   background-color: rgb(9, 1, 251);
+}
+body footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }/*# sourceMappingURL=style_adv.css.map */
